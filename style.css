@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+/* --------------------------------------------------------- */
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#features{
+    color: rgb(129, 128, 128);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.feature:hover{
+    color: rgb(250, 46, 80);
+    cursor: pointer;
+}
+/* -------------------------------------------------------- */
+#up{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+#destop-img{
+    width: 100%;
+}
+#left-bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#title{
+    color: rgb(4, 7, 34);
+    font-weight: bolder;
+    font-size: x-large;
+}
+#descriptio{
+    color: rgb(129, 128, 128);
+    /* font-size: larger; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+#btn{
+    border: none;
+    width: 150px; /* it possible with padding */
+    height: 40px; /* it possible with padding */
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-color: rgb(250, 46, 80);
+    color: white;
+    margin-top: 40px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(4, 7, 34);
+}
+/* ---------------------------------------------------------------------- */
+#right{
+    width: 30%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(4, 7, 34);
+    color: aliceblue;
+}
+.right-text{
+    padding-left:25px;
+    padding-bottom: 10px;
+}
+#new{
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(255, 212, 94);
+}
+.headers:hover{
+    color: rgb(255, 212, 94);
+    cursor: pointer;
+}
+.inner-text{
+    color: rgb(129, 128, 128);
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+/* ------------------------------------------------------------------ */
+#down{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.small-block{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.down-imgs{
+    width: 25%;
+}
+.des-blocks{
+    margin-left: 20px;
+}
+.pic-num{
+    color: rgb(129, 128, 128);
+    font-weight: 550;
+}
+.pic-title{
+    color: rgb(4, 7, 34);
+    font-weight: bolder;
+}
+.pic-title:hover{
+    color: rgb(250, 46, 80);
+    cursor: pointer;
+}
+.pic-des{
+    color: rgb(129, 128, 128);
+    font-weight: 500;
+}
